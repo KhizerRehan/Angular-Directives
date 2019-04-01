@@ -22,7 +22,6 @@ export class HightlightDirective {
   }
 
   private highlight(color: string) {
-    debugger;
     this.element.style.backgroundColor = color;
   }
 
